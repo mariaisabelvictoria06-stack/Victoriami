@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Registration Form</title>
+        <style>
+        body {
+            background-image: url('/storage/emulated/0/PT Form/pic12.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: "Times New Roman", serif;
+        }
+    </style>
+</head>
+      <font face="Times New Roman" color="black">
+      <h1>REGISTRATION FORM</h1>
+  <hr color="black">
+  <form>
+      <b>PERSONAL DETAILS</b><br>
+      <label><b>LAST NAME:</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><b>FIRST NAME:</b></b><br>
+      <input type="text" name="LastName" placeholder="Last Name" required> &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="FirstName" placeholder="First Name" required></label><br><br>
+
+      <label><b>ADDRESS:</b><br>
+      <input type="text" name="address" placeholder="House/Street, Barangay, City," required length="50" size="49">
+      </label><br><br>
+	
+      <label for="dob"><b>DATE OF BIRTH</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label><b>BIRTH PLACE</b></label><br>
+      <input id="dob" name="dob" type="date" required> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="BirthPlace" placeholder="Birth Place" required> <br><br>
+
+      <b>CIVIL STATUS:</b><br>
+      <label><input type="radio" name="civil_status" value="Single" required> Single</label><br>
+      <label><input type="radio" name="civil_status" value="Married"> Married</label><br>
+      <label><input type="radio" name="civil_status" value="Widowed"> Widowed</label><br>
+      <label><input type="radio" name="civil_status" value="Divorce"> Divorce</label><br>
+      <label><input type="radio" name="civil_status" value="Separated"> Separated</label><br><br>
+
+      <b>GENDER:</b><br>
+      <label><input type="radio" name="gender" value="Female" required> Female</label><br>
+      <label><input type="radio" name="gender" value="Male"> Male</label><br>
+      <label><input type="radio" name="gender" value="Non-binary"> Non-binary</label><br>
+      <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label><br><br>
+  
+      <b>SKILLS:</b><br>
+      <label><input type="checkbox" name="skills" value="Communication"> Communication</label><br>
+      <label><input type="checkbox" name="skills" value="Teamwork"> Teamwork</label><br>
+      <label><input type="checkbox" name="skills" value="Leadership"> Leadership</label><br>
+      <label><input type="checkbox" name="skills" value="Problem Solving"> Problem Solving</label><br>
+      <label><input type="checkbox" name="skills" value="Time Management"> Time Management</label><br>
+      <label><input type="checkbox" name="skills" value="Customer Service"> Customer Service</label><br>
+      <label><input type="checkbox" name="skills" value="Cooking"> Cooking</label><br>
+      <label><input type="checkbox" name="skills" value="Coding"> Baking</label><br><br>
+          
+          <button type="submit" formaction="index.html">Submit</button>
+      </body>
+  </form></html>
